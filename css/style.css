@@ -1,6 +1,26 @@
+.header {
+	white-space: nowrap;
+	flex: auto;
+	text-align: right;
+	text-decoration: none;
+	display: inline-block;
+}
 #header {
 	width: 100%;
 	height: 30px;
-	margin-top: 30px;
+	margin-top: 10px;
 	background: #DEDEDE;
+}
+#hcontent {
+	min-width: 301px;
+	height: 30px;
+	display: flex;
+	padding: 0 30px;
+	float: right;
+
+	background: #fff;
+}
+#hlcontent {
+	padding-right: 15px;
+	font-family: arial, sans-serif;
 }
