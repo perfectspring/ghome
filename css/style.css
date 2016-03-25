@@ -1,3 +1,7 @@
+body {
+	font-family: arial, sans-serif;
+	position: relative;
+}
 .header {
 	white-space: nowrap;
 	flex: auto;
@@ -6,7 +10,6 @@
 	text-decoration: none;
 	color: rgba(0, 0, 0, 0.54);
 	font-size: 13px;
-	font-family: arial, sans-serif;
 	height: 30px;
 	line-height: 30px;
 	position: relative;
@@ -15,6 +18,11 @@
 	width: 100%;
 	margin-top: 15px;
 	background: #DEDEDE;
+
+
+
+	position: absolute;
+	z-index: 1;
 }
 #hcontent {
 	min-width: 301px;
@@ -48,6 +56,9 @@ a:hover {
 #usrname {
 	min-width: 60px;
 }
+#apps, #usrname {
+	top: 1px;
+}
 #notification {
 	border-radius: 50%;
 	background: #DEDEDE;
@@ -68,4 +79,28 @@ a:hover {
 }
 #usrimg {
 	top: -1px;
+}
+.glogo {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+#logo_cont {
+	margin-top: 89px;
+	height: 233px;
+	background: #DEDEDE;
+	/*position: relative;*/
+}
+#google {
+	/*position: relative;*/
+	margin-top: 109px;
+	height: 92px;
+	width: 272px;
+	background: url("../img/logo.png") no-repeat;
+	background-size: 272px 92px;
+	/*display: inline;*/
+	/*display: block;*/
+	/*clear: both;*/
+	z-index: 1;
 }
