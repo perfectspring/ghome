@@ -9,28 +9,40 @@
 		<title>GHome</title>
 	</head>
 	<body>
-		<!--header bar full element-->
+		<!--header bar-->
 		<div class="header" id="header">
 			<div class="header" id="hcontent">
-				<!--header bar left content (username, gmail & images link)-->
+				<!--header bar left part of content (username, gmail & images link)-->
 				<div class="header" id="hlcontent">
 					<div class="header" id="usrname">Vlad</div>
 					<div class="header" id="gmail"><a class="header" href="#">Gmail</a></div>
 					<div class="header" id="images"><a class="header" href="#">Images</a></div>
 				</div>
-				<!--header bar right content-->
+				<!--header bar right part of content (apps, notifications, user's image)-->
 				<div class="header" id="hrcontent">
 					<div class="header" id="apps"><a class="header" href="#"><i class="material-icons">&#xE5C3;</i></a></div>
 					<div class="header" id="notification"><a class="header" href="#"><i class="material-icons md-18">&#xE7F4;</i></a></div>
 					<div class="header" id="usrimg"><img id="me" src="./img/photo.jpg" height="30px" width="30px"></div>
 				</div>
 			</div>
+		<!-- logo and coutry -->
 		</div>
 		<div class="glogo" id="logo_cont">
-			<div class="glogo" id="google"><!-- <img style="max-height:100%; max-width:100%;" src="./img/logo.png"> --></div>
+			<div class="glogo" id="google"><div class="glogo" id="rus">Russia</div></div>
 		</div>
-		<div id="search-area">
+		<!-- search area -->
+		<div class="search" id="search-area">
+			<!-- <form class="search" id="searchbox" action="search" method="GET"> -->
+				<!-- <input></input> -->
+			<!-- </form> -->
+			<div class="search" id="saf">
+				<form>
+					<input id="seb" maxlength="2048" autocomplete="off" type="text"></input>
+						<div class="search" id="voice"><i class="material-icons"><span id="mc">&#xE029;</span></i></div>
+				</form>
+			</div>
 		</div>
+		<!-- footer bar -->
 		<div id="footer">
 		</div>
 	</body>
