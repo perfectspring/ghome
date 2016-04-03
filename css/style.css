@@ -119,9 +119,10 @@ a:hover {
 	height: 118px;
 	background-color: #DEDE99;
 }
-#saf {
+#saf, #saf form {
 	max-width: 484px;
-	border: 1px solid #d9d9d9;
+	border: 0;
+	padding: 0;
 	height: 38px;
     vertical-align: top;
     margin: auto;
@@ -144,7 +145,13 @@ a:hover {
 	/*display: inline-block;*/
 }
 #seb {
-	width: 100%;
-	height: 100%;
+	width: 484px;
+	height: 38px;
+	border: 0;
+	padding: 0;
 	/*display: inline-block;*/
 }
+/*form {
+	width: auto;
+	height: auto;
+}*/
