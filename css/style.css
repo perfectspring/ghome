@@ -16,25 +16,32 @@ body {
 #header {
 	width: 100%;
 	top: 16px;
-	background: #DEDEDE;
+	/*background: #DEDEDE;*/
 	/*z-index: 1;*/
+	/*float: right;*/
 }
 #hcontent {
 	min-width: 301px;
 	display: flex;
 	margin: 0 30px;
-	float: right;
+	/*float: right;*/
 	background: #fff;
+}
+#hrcontent {
+	text-align: left;
+	min-width: 120px;
+	float: right;
+	right: 30px;
+	/*clear: both;*/
 }
 #hlcontent {
 	text-align: right;
 	line-height: normal;
 	margin-right: 15px;
+	float: right;
+	right: 22px;
 }
-#hrcontent {
-	text-align: left;
-	min-width: 120px;
-}
+
 /*.material-icons {
 	color: rgba(0, 0, 0, 0.54);
 }*/
@@ -48,13 +55,19 @@ a:hover {
 	/*text-align: right;*/
 	/*line-height: 30px;*/
 	top: -1px;
-	color: #000;
+	/*color: #000000;*/
+}
+#gmail {
+	right: -4px;
 }
 #usrname {
 	min-width: 60px;
+	right: -7px;
 }
-#apps, #usrname {
+#apps {
 	/*top: -1px;*/
+	right: 4px;
+	top: 1px;
 }
 #notification {
 	border-radius: 50%;
@@ -103,8 +116,9 @@ a:hover {
 	/*position: absolute;*/
 	/*margin-top: 109px;*/
 	/*position: relative;*/
-	top: 152px;
-	margin: auto;
+	/*top: 152px;*/
+	/*top: 168px;*/
+	margin: 168px auto auto auto;
 	height: 92px;
 	width: 272px;
 	background: url("../img/logo.png") no-repeat;
@@ -119,12 +133,13 @@ a:hover {
 	color: #4285f4;
 	/*left: 215px;*/
 	/*top: 76px;*/
-	right: 9px;
+	right: 8px;
 	bottom: 0;
 	text-align: left;
 	margin: auto;
 }
-.search {
+
+/*.search {
 	text-align: center;
 	flex: auto;
 	white-space: nowrap;
@@ -140,6 +155,7 @@ a:hover {
 	height: 38px;
     vertical-align: top;
     margin: auto;
+    top: 292px;
 }
 #voice {
 	margin-top: -1px;
@@ -150,22 +166,44 @@ a:hover {
 	height: 38px;
 	line-height: 38px;
 	vertical-align: middle;
-	/*position: absolute;*/
 }
 #mc {
 	font-size: 24px;
 	height: 38px;
 	line-height: 38px;
-	/*display: inline-block;*/
 }
 #seb {
 	width: 484px;
 	height: 38px;
 	border: 0;
 	padding: 0;
-	/*display: inline-block;*/
-}
-/*form {
-	width: auto;
-	height: auto;
 }*/
+#saf {
+	position: relative;
+	top: 31px;
+	/*color: #dedede;*/
+	width: 100%;
+	/*height: 48px;*/
+	/*margin: auto;*/
+	/*overflow: visible;*/
+	/*clear: both;*/
+}
+#seb {
+	display: block;
+	height: 36px;
+	width: 484px;
+	/*align: center;*/
+	margin: auto;
+	border:solid 1px #d9d9d9;
+	/*padding: 0px;*/
+	/*border: 1px solid;*/
+}
+#seb:hover {
+	border:solid 1px #b9b9b9;
+}
+#iform {
+	/*margin: auto;*/
+}
+.search {
+	/*margin: auto;*/
+}
