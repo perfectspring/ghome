@@ -183,19 +183,22 @@ a:hover {
 	top: 31px;
 	/*color: #dedede;*/
 	width: 100%;
+	display: inline-block;
 	/*height: 48px;*/
 	/*margin: auto;*/
 	/*overflow: visible;*/
 	/*clear: both;*/
 }
 #seb {
-	display: block;
+	/*display: block;*/
 	height: 36px;
-	width: 40%;
-	max-width: 484px;
+	width: 100%;
+	/*max-width: 484px;*/
 	/*align: center;*/
 	margin: auto;
 	border:solid 1px #d9d9d9;
+	padding-right: 42px;
+	padding-left: 8px;
 	/*padding: 0px;*/
 	/*border: 1px solid;*/
 }
@@ -203,8 +206,21 @@ a:hover {
 	border:solid 1px #b9b9b9;
 }
 #iform {
+	display: block;
+	width: 40%;
+	min-width: 180px;
+	max-width: 600px;
+	margin: auto;
 	/*margin: auto;*/
+	/*display: inline-block;*/
 }
 .search {
 	/*margin: auto;*/
+}
+#voice {
+	position: relative;
+	top: -33px;
+	right: -41px;
+	float: right;
+	/*width: 48px;*/
 }
